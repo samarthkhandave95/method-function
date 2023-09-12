@@ -1,0 +1,44 @@
+//package method;
+
+public class nagar {
+    public static void main(String[] args) {
+        hingoli();
+        print b = new print();//object created by using new keyword
+        b.print();
+        sona s = new sona();
+        s.name();
+        s.ha();
+
+        nagar k = new nagar();
+        k.ram();//calling using non static method
+        k.ganu();
+        k.sita();
+
+    }
+    public static void hingoli() {
+        System.out.println("Ahmednagar  " + "newshops" + " appa fruit stall nagar");
+    }
+    public void ram(){   //non static method
+        System.out.println("jai shree ram ");
+    }
+    public void sita(){
+        System.out.println("sita from nashik");
+    }
+    public void ganu(){
+        System.out.println("ganu bhaiyya khandave is from ahmednagar");
+    }
+}
+class print{ //method calling using different class
+    public static void print(){
+        System.out.println("beed is away from ahmednagar");
+    }
+
+}
+class sona{
+    public static void name(){
+        System.out.println("pipeline road nirmal nagar ahmednagar savedi");
+    }
+    public void ha(){
+        System.out.println("bol na bhau");
+    }
+}
